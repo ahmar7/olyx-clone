@@ -3,3 +3,249 @@
     animation-timing-function: ease-in-out;
     -webkit-animation-timing-function: ease-in-out;
 }
+
+.divider.utility-pages {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.divider.card-career-item {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.divider.card-career {
+    margin-top: 41px;
+    margin-bottom: 54px;
+}
+
+.divider.plan {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.paragraph.password {
+    margin-bottom: 24px;
+}
+
+.paragraph.not-found {
+    margin-bottom: 49px;
+}
+
+.paragraph.utility-page {
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.paragraph.home-features {
+    max-width: 603px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.paragraph.card-home-feature {
+    margin-bottom: 0px;
+}
+
+.paragraph.home-perks {
+    margin-bottom: 34px;
+}
+
+.paragraph.home-perk {
+    margin-bottom: 0px;
+}
+
+.paragraph.home-steps {
+    margin-bottom: 32px;
+}
+
+.paragraph.card-home-step {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-testimonial {
+    margin-bottom: 34px;
+}
+
+.paragraph.footer-newsletter {
+    margin-bottom: 28px;
+}
+
+.paragraph.story {
+    margin-bottom: 0px;
+}
+
+.paragraph.values {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-value {
+    margin-bottom: 0px;
+}
+
+.paragraph.about-offices {
+    margin-bottom: 40px;
+}
+
+.paragraph.card-about-office {
+    margin-bottom: 0px;
+}
+
+.paragraph.about-team {
+    margin-bottom: 0px;
+}
+
+.paragraph.team-item {
+    margin-bottom: 0px;
+}
+
+.paragraph.partners {
+    margin-bottom: 0px;
+}
+
+.paragraph.blog-hero {
+    margin-bottom: 41px;
+}
+
+.paragraph.card-post-featured-item {
+    margin-bottom: 49px;
+}
+
+.paragraph.text-neutral-200 {
+    color: #f5f4fa;
+}
+
+.paragraph.text-neutral-200.blog-post {
+    margin-bottom: 36px;
+}
+
+.paragraph.card-author {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-feature-featured {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-feature {
+    margin-bottom: 0px;
+}
+
+.paragraph.features {
+    margin-bottom: 0px;
+}
+
+.paragraph.team-page {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-team-page-careers {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-team {
+    margin-bottom: 0px;
+}
+
+.paragraph.open-positions {
+    margin-bottom: 0px;
+}
+
+.paragraph.careers-testimonials {
+    margin-bottom: 0px;
+}
+
+.paragraph.careers-perks {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-careers-perk {
+    margin-bottom: 0px;
+}
+
+.paragraph.careers-hero {
+    max-width: 710px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+.paragraph.card-career-item {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-career {
+    max-width: 583px;
+    margin-bottom: 0px;
+}
+
+.paragraph.card-apply-job {
+    margin-bottom: 33px;
+}
+
+.paragraph.integrations-hero {
+    margin-bottom: 39px;
+}
+
+.paragraph.card-integration-item {
+    margin-bottom: 32px;
+}
+
+.paragraph.card-integration {
+    margin-bottom: 40px;
+}
+
+.paragraph.pricing {
+    margin-bottom: 0px;
+}
+
+.paragraph.plan-features {
+    max-width: 497px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.paragraph.card-plan-item-summary {
+    margin-bottom: 0px;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+.paragraph.plan-summary {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-get-plan {
+    margin-bottom: 0px;
+}
+
+.paragraph.contact-hero {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-contact-category {
+    margin-bottom: 22px;
+}
+
+.paragraph.contact {
+    margin-bottom: 26px;
+}
+
+.paragraph.faqs {
+    margin-bottom: 0px;
+}
+
+.paragraph.card-faq {
+    margin-bottom: 0px;
+}
+
+.paragraph-small {
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.paragraph-small.card-plan-item-content-bottom-small-print {
+    margin-top: 16px;
+    text-align: center;
+}

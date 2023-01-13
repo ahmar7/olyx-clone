@@ -1,4 +1,5 @@
 import React from "react";
+import "./features.css";
 import Template from "../../assets/img/template.jpg";
 const Features = () => {
   return (

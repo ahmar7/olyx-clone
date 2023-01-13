@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./steps.css";
 import V3 from "../../assets/img/V3.png";
 import Oly from "../../assets/img/Oly.png";
 const Steps = () => {

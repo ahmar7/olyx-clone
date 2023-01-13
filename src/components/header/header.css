@@ -1,0 +1,196 @@
+.w-commerce-commercecheckoutsummaryblockheader {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e6e6e6;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e6e6e6;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #e6e6e6;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #e6e6e6;
+    background-color: #fff;
+}
+
+.w-commerce-commercecartheader {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-flex-basis: auto;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e6e6e6;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header.no-absolute {
+    position: static;
+    border-top: 1px solid #302c3f;
+    border-bottom: 1px solid #302c3f;
+}
+
+.header-logo {
+    width: 160px;
+}
+
+.header-navigation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.card.header-wrapper-components {
+    margin-bottom: 36px;
+    padding: 32px;
+}
+
+.card.header-wrapper-components.bottom {
+    margin-top: 164px;
+}
+
+.checkout-form {
+    padding: 80px 0px 150px;
+    background-color: transparent;
+}
+
+.checkout-block-header {
+    padding: 30px 40px 20px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.header-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-wrapper.center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cart-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom-color: #302c3f;
+}
+
+.feature-comparison-header {
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgba(94, 91, 113, 0.5);
+}
+
+.header-wrapper.center {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.paypal {
+    margin-bottom: 15px;
+}
+
+.checkout-hero-wrapper {
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.order-summary-total {
+    color: #fff;
+    font-size: 20px;
+}
+
+.discounts {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.checkout-line-item {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.order-summary-subtotal {
+    color: #fff;
+    font-weight: 500;
+}

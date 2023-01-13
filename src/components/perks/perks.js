@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./perks.css";
 const Perks = () => {
   return (
     <div>
