@@ -1,0 +1,14 @@
+.bg-gradient-blur-wrapper.faqs {
+    animation: mymove 13s infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+
+
+.show-toggle {
+
+    height: 100% !important;
+    display: block !important;
+
+}

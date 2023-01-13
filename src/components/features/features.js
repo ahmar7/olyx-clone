@@ -6,10 +6,13 @@ const Features = () => {
       <section className="section features wf-section">
         <div className="container-default features w-container">
           <div
-            data-w-id="f01fdbe9-47bc-c062-bb6a-5e74c9a5e3b8"
-            style={{
-              opacity: 1,
-            }}
+            data-aos="fade-in"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            data-aos-once="true"
+            data-aos-mirror="true"
             className="w-layout-grid features-grid"
           >
             <div

@@ -1,0 +1,5 @@
+.bg-gradient-blur-wrapper.big {
+    animation: mymove 13s infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}

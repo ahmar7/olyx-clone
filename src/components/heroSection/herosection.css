@@ -1,0 +1,32 @@
+.home-hero-featured-message-wrapper {
+    transition: all .3s ease;
+}
+
+.home-hero-featured-message-wrapper:hover {
+    transition: all .3s ease;
+    transform: scale(1.05);
+}
+
+.bg-gradient-blur-wrapper.home-hero-1,
+.bg-gradient-blur-wrapper.home-hero-2 {
+
+    animation: mymove 13s infinite;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes mymove {
+
+
+    from {
+        transform:
+            translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)
+    }
+
+    to {
+        transform:
+            translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(360deg) skew(0deg, 0deg);
+    }
+
+
+}

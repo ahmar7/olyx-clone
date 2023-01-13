@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import "./herosection.css";
 import Buysell from "../../assets/img/buysell.png";
 import Rocket from "../../assets/img/rocket.png";
 import Cg from "../../assets/img/Cg.png";
@@ -8,24 +11,30 @@ import Pinksale from "../../assets/img/Pinksale.png";
 import Binance from "../../assets/img/Binance.png";
 import Pcs from "../../assets/img/Pcs.png";
 const HeroSection = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
-      <section className="section home-hero wf-section">
+      <section
+        data-aos="fade"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        className="section home-hero wf-section"
+      >
         <div className="container-medium-940px home-hero">
           <div
             data-w-id="448f5ead-3667-0bad-b1a4-a6038870800b"
-            style={{
-              transform:
-                "translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-              opacity: 1,
-            }}
             className="home-hero-featured-message-wrapper"
           >
             <div className="home-hero-featured-message-content">
               <a
                 data-w-id="5747d66c-b4ac-690f-6026-662ab3648be2"
-                href="/utility-pages/extra-components/features"
+                href="#"
                 className="home-hero-featured-message-link w-inline-block"
               >
                 <div className="home-hero-featured-message-tag">New</div>
@@ -78,27 +87,24 @@ const HeroSection = () => {
               id="w-node-_11c7ff4f-b854-a2a7-75b3-008a8664fa7a-11098043"
               className="button-primary-gradient _2-buttons"
             >
-              <a href="/roadmap" className="button-primary w-button">
+              <a href="#" className="button-primary w-button">
                 Get started
               </a>
             </div>
-            <a
-              href="/utility-pages/extra-components/features"
-              className="button-secondary _2-buttons w-button"
-            >
+            <a href="#" className="button-secondary _2-buttons w-button">
               View Charts
             </a>
           </div>
         </div>
         <div className="container-default home-hero w-container">
           <div
-            data-w-id="1535d204-b8f5-78ad-1998-57322399a3bd"
-            style={{
-              transform:
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-              opacity: 1,
-            }}
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="150"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in"
+            data-aos-mirror="false"
+            data-aos-once="true"
             className="home-hero-images-wrapper"
           >
             <img
@@ -120,24 +126,20 @@ const HeroSection = () => {
               loading="eager"
               alt=""
               className="image home-hero-2"
-              style={{
-                willChange: "transform",
-                transform:
-                  "translate3d(0px, -28.4616px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-              }}
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-once="false"
             />
             <img
               src={Rocket}
               loading="eager"
               alt=""
               className="image home-hero-3"
-              style={{
-                willChange: "transform",
-                transform:
-                  "translate3d(0px, -18.9744px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-              }}
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-once="false"
             />
           </div>
           <h1 className="heading-5">Our Partners</h1>
@@ -185,38 +187,25 @@ const HeroSection = () => {
           <div
             data-w-id="a052a4bf-34f8-d790-1f5c-e2592094cb97"
             className="bg-gradient-blur-wrapper home-hero-1"
-            style={{
-              transform:
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(129.366deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-              willChange: "transform",
-            }}
           >
             <div className="bg-gradient-blur-circle-3" />
             <div className="bg-gradient-blur-circle-2" />
             <div className="bg-gradient-blur-circle-1" />
           </div>
-          <div
-            className="bg-gradient-blur-wrapper home-hero-2"
-            style={{
-              transform:
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-            }}
-          >
+          <div className="bg-gradient-blur-wrapper home-hero-2">
             <div className="bg-gradient-blur-circle-3" />
             <div className="bg-gradient-blur-circle-2 blue" />
             <div className="bg-gradient-blur-circle-1 purple" />
           </div>
           <div className="w-layout-grid about-hero-achievements-grid">
             <div
-              data-w-id="0d3db03b-f4dd-345c-fc41-4b909d428ff7"
-              style={{
-                transform:
-                  "translate3d(0px, 40px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-                opacity: 1,
-              }}
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="true"
               className="card about-hero-achievement"
             >
               <div className="card-about-hero-achievement-wrapper">
@@ -229,13 +218,13 @@ const HeroSection = () => {
               </div>
             </div>
             <div
-              data-w-id="0d3db03b-f4dd-345c-fc41-4b909d428fff"
-              style={{
-                transform:
-                  "translate3d(0px, 40px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-                opacity: 1,
-              }}
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="true"
               className="card about-hero-achievement"
             >
               <div className="card-about-hero-achievement-wrapper">
@@ -248,13 +237,13 @@ const HeroSection = () => {
               </div>
             </div>
             <div
-              data-w-id="0d3db03b-f4dd-345c-fc41-4b909d429007"
-              style={{
-                transform:
-                  "translate3d(0px, 40px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-                opacity: 1,
-              }}
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="true"
               className="card about-hero-achievement"
             >
               <div className="card-about-hero-achievement-wrapper">
@@ -267,13 +256,13 @@ const HeroSection = () => {
               </div>
             </div>
             <div
-              data-w-id="0d3db03b-f4dd-345c-fc41-4b909d42900f"
-              style={{
-                transform:
-                  "translate3d(0px, 40px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                transformStyle: "preserve-3d",
-                opacity: 1,
-              }}
+              data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+              data-aos-easing="ease-in"
+              data-aos-mirror="false"
+              data-aos-once="true"
               className="card about-hero-achievement"
             >
               <div className="card-about-hero-achievement-wrapper">

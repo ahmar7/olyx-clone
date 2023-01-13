@@ -55,12 +55,13 @@ const Perks = () => {
               </div>
               <div
                 data-w-id="24a66438-d00d-342a-e10f-1469d5035cdc"
-                style={{
-                  transform:
-                    "translate3d(0px, 40px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                  transformStyle: "preserve-3d",
-                  opacity: 0,
-                }}
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in"
+                data-aos-mirror="false"
+                data-aos-once="true"
                 className="image-wrapper home-perks-content-top-image"
               >
                 <div
@@ -71,37 +72,37 @@ const Perks = () => {
                     id="w-node-_896af325-1bd1-61b2-6922-019b2a2de229-11098043"
                     data-w-id="896af325-1bd1-61b2-6922-019b2a2de229"
                     className="chart _1"
-                    style={{ width: "0px" }}
+                    style={{ height: 19 }}
                   />
                   <div
                     id="w-node-_896af325-1bd1-61b2-6922-019b2a2de22a-11098043"
                     data-w-id="896af325-1bd1-61b2-6922-019b2a2de22a"
                     className="chart _2"
-                    style={{ width: "0px" }}
+                    style={{ height: 19 }}
                   />
                   <div
                     id="w-node-_896af325-1bd1-61b2-6922-019b2a2de22b-11098043"
                     data-w-id="896af325-1bd1-61b2-6922-019b2a2de22b"
                     className="chart _3"
-                    style={{ width: "0px" }}
+                    style={{ height: 19 }}
                   />
                   <div
                     id="w-node-_896af325-1bd1-61b2-6922-019b2a2de22c-11098043"
                     data-w-id="896af325-1bd1-61b2-6922-019b2a2de22c"
                     className="chart _4"
-                    style={{ width: "0px" }}
+                    style={{ height: 19 }}
                   />
                   <div
                     id="w-node-_896af325-1bd1-61b2-6922-019b2a2de22d-11098043"
                     data-w-id="896af325-1bd1-61b2-6922-019b2a2de22d"
                     className="chart _5"
-                    style={{ width: "0px" }}
+                    style={{ height: 19 }}
                   />
                   <div
                     id="w-node-_896af325-1bd1-61b2-6922-019b2a2de22e-11098043"
                     data-w-id="896af325-1bd1-61b2-6922-019b2a2de22e"
                     className="chart _6"
-                    style={{ width: "0px" }}
+                    style={{ height: 19 }}
                   />
                 </div>
               </div>
@@ -113,7 +114,7 @@ const Perks = () => {
                   transform:
                     "translate3d(0px, 40px, 0px) scale3d(1, 1, 1)  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
                   transformStyle: "preserve-3d",
-                  opacity: 0,
+                  opacity: 1,
                 }}
                 className="image-wrapper home-perks-content-bottom-image"
               />

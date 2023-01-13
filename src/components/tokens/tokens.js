@@ -1,12 +1,19 @@
 import React from "react";
 import Perks from "../../assets/img/perk.svg";
+import "./tokens.css";
 const Tokens = () => {
   return (
     <div>
       <section className="section home-features wf-section">
         <div
-          data-w-id="62f6c10d-ee2c-bcd9-13a2-11c6d148edf6"
-          style={{ opacity: 1 }}
+          data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in"
+          data-aos-mirror="false"
+          data-aos-once="true"
           className="container-medium-756px home-features"
         >
           <h2>
@@ -18,8 +25,8 @@ const Tokens = () => {
         </div>
         <div className="container-default home-features w-container">
           <div
-            data-w-id="909bc8a8-d9e5-ae08-baba-bddf5ff15df3"
-            style={{ opacity: 1 }}
+            data-aos="fade-up"
+            data-aos-duration="1000"
             className="w-layout-grid home-features-grid"
           >
             <div
@@ -128,7 +135,7 @@ const Tokens = () => {
           <div className="flex-vc home-features">
             <div className="_2-buttons-wrapper">
               <div className="button-primary-gradient _2-buttons">
-                <a href="/roadmap" className="button-primary w-button">
+                <a href="#" className="button-primary w-button">
                   Get started
                 </a>
               </div>
@@ -140,14 +147,7 @@ const Tokens = () => {
               </a>
             </div>
           </div>
-          <div
-            className="bg-gradient-blur-wrapper big"
-            style={{
-              transform:
-                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1)rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-              transformStyle: "preserve-3d",
-            }}
-          >
+          <div className="bg-gradient-blur-wrapper big">
             <div className="bg-gradient-blur-circle-3 pink big" />
             <div className="bg-gradient-blur-circle-2 blue-2" />
             <div className="bg-gradient-blur-circle-1 purple-2 big" />

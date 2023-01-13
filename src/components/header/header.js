@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="header-wrapper">
             <div className="split-content header-right">
               <a
-                href="/"
+                href="#"
                 aria-current="page"
                 className="brand w-nav-brand w--current"
                 aria-label="home"
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <ul role="list" className="header-navigation w-list-unstyled">
                   <li className="nav-item-wrapper">
                     <a
-                      href="/"
+                      href="#"
                       aria-current="page"
                       className="nav-link w--current"
                     >
@@ -44,7 +44,7 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li className="nav-item-wrapper">
-                    <a href="/roadmap" className="nav-link">
+                    <a href="#" className="nav-link">
                       Roadmap
                     </a>
                   </li>
@@ -90,7 +90,7 @@ const Navbar = () => {
                               <ul role="list" className="dropdown-nav">
                                 <li className="dropdown-nav-item">
                                   <a
-                                    href="https://twitter.com/OlyxAi"
+                                    href="#"
                                     className="dropdown-nav-link"
                                     tabIndex={0}
                                   >
@@ -99,7 +99,7 @@ const Navbar = () => {
                                 </li>
                                 <li className="dropdown-nav-item">
                                   <a
-                                    href="https://t.me/OlyxToken"
+                                    href="#"
                                     className="dropdown-nav-link tag w-inline-block"
                                     tabIndex={0}
                                   >
@@ -133,14 +133,14 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li className="nav-item-wrapper mobile">
-                    <a href="/contact" className="nav-link sign-in mobile">
+                    <a href="#" className="nav-link sign-in mobile">
                       Sign in
                     </a>
                   </li>
                   <li className="nav-item-wrapper mobile-button">
                     <div className="button-primary-gradient header-button mobile-button">
                       <a
-                        href="/roadmap"
+                        href="#"
                         className="button-primary small-v2 mobile-button w-button"
                       >
                         Get started
@@ -151,7 +151,7 @@ const Navbar = () => {
               </nav>
             </div>
             <div className="split-content header-left">
-              <a href="https://docs.olyx.ai/" className="nav-link sign-in">
+              <a href="#" className="nav-link sign-in">
                 Docs
               </a>
               <div className="button-primary-gradient header-button">
