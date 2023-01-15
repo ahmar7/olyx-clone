@@ -16,10 +16,9 @@ const Testimonial = () => {
           data-aos-once="true"
           className="container-medium-603px testimonials"
         >
-          <h2>Timeline &amp; Direction</h2>
+          <h2 className="primary-text">Road to YieldTrust Success</h2>
           <p>
-            Olyx vision is an ecosystem that encompasses the many opportunities
-            of DeFi, but only by building the best versions of each.
+            As Rome wasn't built in a day, neither YieldTrust will be. Take a look at our current developments and stay tuned for what's to come.
           </p>
         </div>
         <div className="container-default testimonials w-container">
@@ -66,20 +65,17 @@ const Testimonial = () => {
                           />
                         </div>
                         <div className="card-plan-item-popular-tag-wrapper">
-                          <div className="card-plan-item-popular-tag-blur" />
-                          <div className="card-plan-item-popular-tag-text">
-                            Live
+                          <div className="card-plan-item-popular-tag-blur no-img" />
+                          <div className="card-plan-item-popular-tag-text roadmap-status">
+                            Finished
                           </div>
                         </div>
                       </div>
                       <div className="card-plan-item-title-wrapper">
-                        <h2 className="title h3-size card-plan-item">
-                          Pre-Launch
+                        <h2 className="title h3-size card-plan-item roadmap-header">
+                          Pre-Launch (Q3 2022 - Q4 2022)
                         </h2>
-                        <p className="paragraph card-plan-item-summary">
-                          Pre-launch events were an early sign of the protocol's
-                          potential.
-                        </p>
+                        
                       </div>
                     </div>
                     <div className="card-plan-item-content-bottom">
@@ -107,7 +103,7 @@ const Testimonial = () => {
                             />
                           </div>
                           <div className="card-plan-item-feature-text">
-                            Website Development
+                            Product Conceptualisation
                           </div>
                         </div>
                         <div className="card-plan-item-feature-wrapper">
@@ -120,7 +116,7 @@ const Testimonial = () => {
                             />
                           </div>
                           <div className="card-plan-item-feature-text">
-                            Community Building
+                            Financial Assessment
                           </div>
                         </div>
                         <div className="card-plan-item-feature-wrapper">
@@ -133,28 +129,47 @@ const Testimonial = () => {
                             />
                           </div>
                           <div className="card-plan-item-feature-text">
-                            Smart Contract Development
+                            Team Formation
                           </div>
                         </div>
                         <div className="card-plan-item-feature-wrapper">
                           <div className="card-plan-item-feature-icon-wrapper">
                             <img
-                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c7932098097_icon-1-check-dark-template.svg"
+                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c0ed6098096_icon-2-check-dark-template.svg"
                               loading="eager"
                               alt="Check Icon - Dark X Webflow Template"
                               className="image card-plan-item-feature-icon"
                             />
                           </div>
                           <div className="card-plan-item-feature-text">
-                            AI-based trading
+                            Development Begins
                           </div>
                         </div>
-                      </div>
-                      <div className="card-plan-item-button-wrapper">
-                        <div className="button-primary-gradient full-width">
-                          <a href="#" className="button-primary w-button">
-                            See the Full OLYX Roadmap
-                          </a>
+                        <div className="card-plan-item-feature-wrapper">
+                          <div className="card-plan-item-feature-icon-wrapper">
+                            <img
+                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c0ed6098096_icon-2-check-dark-template.svg"
+                              loading="eager"
+                              alt="Check Icon - Dark X Webflow Template"
+                              className="image card-plan-item-feature-icon"
+                            />
+                          </div>
+                          <div className="card-plan-item-feature-text">
+                            Development Milestones
+                          </div>
+                        </div>
+                        <div className="card-plan-item-feature-wrapper">
+                          <div className="card-plan-item-feature-icon-wrapper">
+                            <img
+                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c0ed6098096_icon-2-check-dark-template.svg"
+                              loading="eager"
+                              alt="Check Icon - Dark X Webflow Template"
+                              className="image card-plan-item-feature-icon"
+                            />
+                          </div>
+                          <div className="card-plan-item-feature-text">
+                            Testnet Demo
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -200,10 +215,10 @@ const Testimonial = () => {
                           aria-hidden="true"
                         >
                           <div
-                            className="card-plan-item-popular-tag-blur"
+                            className="card-plan-item-popular-tag-blur no-img"
                             aria-hidden="true"
                           />
-                          <div className="inprogress-text" aria-hidden="true">
+                          <div className="inprogress-text roadmap-status" aria-hidden="true">
                             In-Progress
                           </div>
                         </div>
@@ -213,18 +228,11 @@ const Testimonial = () => {
                         aria-hidden="true"
                       >
                         <h2
-                          className="title h3-size card-plan-item"
+                          className="title h3-size card-plan-item roadmap-header"
                           aria-hidden="true"
                         >
-                          Launch
+                          Launch (Q1 2023)
                         </h2>
-                        <p
-                          className="paragraph card-plan-item-summary"
-                          aria-hidden="true"
-                        >
-                          Break ground building the first elements of the Olyx
-                          Ecosystem.
-                        </p>
                       </div>
                     </div>
                     <div
@@ -255,7 +263,7 @@ const Testimonial = () => {
                             className="card-plan-item-feature-text"
                             aria-hidden="true"
                           >
-                            Active Buy Back &amp;&nbsp;Burn Feature
+                            Official Launch DApp
                           </div>
                         </div>
                         <div
@@ -278,30 +286,7 @@ const Testimonial = () => {
                             className="card-plan-item-feature-text"
                             aria-hidden="true"
                           >
-                            PancakeSwap Listing
-                          </div>
-                        </div>
-                        <div
-                          className="card-plan-item-feature-wrapper"
-                          aria-hidden="true"
-                        >
-                          <div
-                            className="card-plan-item-feature-icon-wrapper"
-                            aria-hidden="true"
-                          >
-                            <img
-                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c0ed6098096_icon-2-check-dark-template.svg"
-                              loading="eager"
-                              alt="Check Icon - Dark X Webflow Template"
-                              className="image card-plan-item-feature-icon"
-                              aria-hidden="true"
-                            />
-                          </div>
-                          <div
-                            className="card-plan-item-feature-text"
-                            aria-hidden="true"
-                          >
-                            Community Contest
+                            Mainnet Deployment
                           </div>
                         </div>
                         <div
@@ -327,7 +312,7 @@ const Testimonial = () => {
                             Community Building
                           </div>
                         </div>
-                        <div
+                         <div
                           className="card-plan-item-feature-wrapper"
                           aria-hidden="true"
                         >
@@ -336,7 +321,7 @@ const Testimonial = () => {
                             aria-hidden="true"
                           >
                             <img
-                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c0ed6098096_icon-2-check-dark-template.svg"
+                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c7932098097_icon-1-check-dark-template.svg"
                               loading="eager"
                               alt="Check Icon - Dark X Webflow Template"
                               className="image card-plan-item-feature-icon"
@@ -347,7 +332,7 @@ const Testimonial = () => {
                             className="card-plan-item-feature-text"
                             aria-hidden="true"
                           >
-                            CoinMarketCap / CoinGecko Listing
+                            Influencer Marketing
                           </div>
                         </div>
                         <div
@@ -370,26 +355,54 @@ const Testimonial = () => {
                             className="card-plan-item-feature-text"
                             aria-hidden="true"
                           >
-                            Launch Dapps
+                            Multichain Staking
                           </div>
                         </div>
-                      </div>
-                      <div
-                        className="card-plan-item-button-wrapper"
-                        aria-hidden="true"
-                      >
                         <div
-                          className="button-primary-gradient full-width"
+                          className="card-plan-item-feature-wrapper"
                           aria-hidden="true"
                         >
-                          <a
-                            href="#"
-                            className="button-primary w-button"
-                            tabIndex={-1}
+                          <div
+                            className="card-plan-item-feature-icon-wrapper"
                             aria-hidden="true"
                           >
-                            See the Full OLYX Roadmap
-                          </a>
+                            <img
+                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c7932098097_icon-1-check-dark-template.svg"
+                              loading="eager"
+                              alt="Check Icon - Dark X Webflow Template"
+                              className="image card-plan-item-feature-icon"
+                              aria-hidden="true"
+                            />
+                          </div>
+                          <div
+                            className="card-plan-item-feature-text"
+                            aria-hidden="true"
+                          >
+                            Partnership Announcements
+                          </div>
+                        </div>
+                        <div
+                          className="card-plan-item-feature-wrapper"
+                          aria-hidden="true"
+                        >
+                          <div
+                            className="card-plan-item-feature-icon-wrapper"
+                            aria-hidden="true"
+                          >
+                            <img
+                              src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c7932098097_icon-1-check-dark-template.svg"
+                              loading="eager"
+                              alt="Check Icon - Dark X Webflow Template"
+                              className="image card-plan-item-feature-icon"
+                              aria-hidden="true"
+                            />
+                          </div>
+                          <div
+                            className="card-plan-item-feature-text"
+                            aria-hidden="true"
+                          >
+                            Unique Referral Mechanism
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -435,10 +448,10 @@ const Testimonial = () => {
                           aria-hidden="true"
                         >
                           <div
-                            className="card-plan-item-popular-tag-blur"
+                            className="card-plan-item-popular-tag-blur no-img"
                             aria-hidden="true"
                           />
-                          <div className="inprogress-text" aria-hidden="true">
+                          <div className="inprogress-text roadmap-status" aria-hidden="true">
                             In-Progress
                           </div>
                         </div>
@@ -448,7 +461,7 @@ const Testimonial = () => {
                         aria-hidden="true"
                       >
                         <h2
-                          className="title h3-size card-plan-item"
+                          className="title h3-size card-plan-item roadmap-header"
                           aria-hidden="true"
                         >
                           Q2 2023
@@ -457,41 +470,18 @@ const Testimonial = () => {
                           className="title h3-size card-plan-item"
                           aria-hidden="true"
                         >
-                          CEX and Mainnet OLYX DEX
+                          YieldBot NFTs and YieldSwap (AMM)
                         </h2>
                         <p
                           className="paragraph card-plan-item-summary"
                           aria-hidden="true"
                         >
-                          List Olyx on top centralized exchanges, launch the
-                          mainnet version of the Olyx DEX, and integrate trading
-                          vaults into the internal DEX, and Apply for a Certik
-                          audit, and upgrade the DApp to version 2 with higher
-                          leverage
+                          We will market YieldBot for proprietary use through NFTs. First, we will convince the DeFi community of our invention. In due course, everyone will witness YieldBot's consistent yield output and simplistic use. Users may play with the options and specifications of the software and develop their own strategies. Become an early investor in YieldTrust and earn your whitelist spot in the NFT collection. Spots will be limited and dependent on the size of your stake and the time you're invested in our DApp. Take control of your funds and adapt the trading style to your liking to see the power of AI yourself!
                         </p>
-                      </div>
-                    </div>
-                    <div
-                      className="card-plan-item-content-bottom"
-                      aria-hidden="true"
-                    >
-                      <div
-                        className="card-plan-item-button-wrapper"
-                        aria-hidden="true"
-                      >
-                        <div
-                          className="button-primary-gradient full-width"
-                          aria-hidden="true"
-                        >
-                          <a
-                            href="#"
-                            className="button-primary w-button"
-                            tabIndex={-1}
-                            aria-hidden="true"
-                          >
-                            See the Full OLYX Roadmap
-                          </a>
-                        </div>
+                        <br />
+                        <p>
+                          YieldSwap is a multichain AMM offering every token available in our DApp. By the time it operates, we will have expanded our staking pools and accumulated enough funds in the treasury to support the swap. YieldSwap uses the cutting-edge technology to automatically acquire the best pricing for cryptocurrency swaps on BSC and other networks.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -536,10 +526,10 @@ const Testimonial = () => {
                           aria-hidden="true"
                         >
                           <div
-                            className="card-plan-item-popular-tag-blur"
+                            className="card-plan-item-popular-tag-blur no-img"
                             aria-hidden="true"
                           />
-                          <div className="inprogress-text" aria-hidden="true">
+                          <div className="inprogress-text roadmap-status" aria-hidden="true">
                             In-Progress
                           </div>
                         </div>
@@ -549,55 +539,27 @@ const Testimonial = () => {
                         aria-hidden="true"
                       >
                         <h2
-                          className="title h3-size card-plan-item"
+                          className="title h3-size card-plan-item roadmap-header"
                           aria-hidden="true"
                         >
-                          Q1 2023
+                          Q3 2023
                         </h2>
                         <h2
                           className="title h3-size card-plan-item"
                           aria-hidden="true"
                         >
-                          Launch of the Strategy Trading and Copy Trading
-                          platforms
+                          YieldTrust TGE and Derivatives Trading DEX
                         </h2>
                         <p
                           className="paragraph card-plan-item-summary"
                           aria-hidden="true"
                         >
-                          Is your trading strategy successful but you don't have
-                          the large capital to back it? No problem. Share your
-                          strategy, provide a description, and let other traders
-                          use it while you earn fees from their winning trades.
-                          If you don't have the time to constantly monitor the
-                          markets and conduct research, you can simply copy the
-                          strategies of more experienced traders. All you need
-                          to do is pay a small fee to the strategy creator when
-                          your trade is closed with a profit.
+                          We will introduce a utility and governance token in one for YieldTrust. Name, ticker, and other tokenomics will be revealed in a dedicated announcement. The token is necessary as it's supposed to play a crucial role in our upcoming AI-powered hedge fund, where decision-making is driven by a decentralised autonomous organisation (DAO). Besides governance, further benefits of our token include ecosystem discounts, dividend distribution, other types of airdrops, private deals, and bonus daily ROI in our DApp. Users will need to stake our token to gain these privileges, and there will be specific tiers to mark the differences.
                         </p>
-                      </div>
-                    </div>
-                    <div
-                      className="card-plan-item-content-bottom"
-                      aria-hidden="true"
-                    >
-                      <div
-                        className="card-plan-item-button-wrapper"
-                        aria-hidden="true"
-                      >
-                        <div
-                          className="button-primary-gradient full-width"
-                          aria-hidden="true"
-                        >
-                          <a
-                            href="#"
-                            className="button-primary w-button"
-                            tabIndex={-1}
-                            aria-hidden="true"
-                          >
-                            See the Full OLYX Roadmap
-                          </a>
-                        </div>
+                        <br />
+                        <p>
+                          Furthermore, you will be able to trade with leverage up to 50 times on our platform using YieldTrust Derivatives. For transparency reasons, the initial money to sustain our trading DEX and aspire bigger ambitions outside of our main utility is made possible by our TGE and series funding. The leverage pairs will based on every available token in our DApp.
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -642,10 +604,10 @@ const Testimonial = () => {
                           aria-hidden="true"
                         >
                           <div
-                            className="card-plan-item-popular-tag-blur"
+                            className="card-plan-item-popular-tag-blur no-img"
                             aria-hidden="true"
                           />
-                          <div className="inprogress-text" aria-hidden="true">
+                          <div className="inprogress-text roadmap-status" aria-hidden="true">
                             In-Progress
                           </div>
                         </div>
@@ -655,7 +617,7 @@ const Testimonial = () => {
                         aria-hidden="true"
                       >
                         <h2
-                          className="title h3-size card-plan-item"
+                          className="title h3-size card-plan-item roadmap-header"
                           aria-hidden="true"
                         >
                           Q4 2023
@@ -664,51 +626,18 @@ const Testimonial = () => {
                           className="title h3-size card-plan-item"
                           aria-hidden="true"
                         >
-                          The world's First Fully Automated Hedge Fund
+                          AI-Powered Decentralised Hedge Fund
                         </h2>
                         <p
                           className="paragraph card-plan-item-summary"
                           aria-hidden="true"
                         >
-                          The world's first fully automated hedge fund, governed
-                          by a decentralized autonomous organization (DAO)
-                          consisting entirely of artificial intelligence (AI)
-                          members, is being launched.The Olyx team is working on
-                          creating a virtual hedge fund that will be managed by
-                          a decentralized autonomous organization (DAO) made up
-                          of multiple artificial intelligence (AI) members with
-                          different specialties and trading strategies. The DAO
-                          will start with three AI members, and more will be
-                          added when strong candidates are identified. This will
-                          ensure the DAO is always expanding, more secure, and
-                          more stable. Investors will be able to purchase shares
-                          in the hedge fund and receive dividends when payouts
-                          are made. All investments made by the DAO will be
-                          subject to unanimous voting by its AI members.
+                          Last but certainly not least, we are setting up an AI-powered hedge fund governed by a decentralised autonomous organisation (DAO) consisting of YieldTrust users with a minimum staked contribution in our native token. Your stake will determine your influence in the DAO, amongst other advantages, whereas the AI members of the fund do the trading strategy selection and profit generation. Investors will be able to purchase shares in the hedge fund and receive dividends when payouts are made.
                         </p>
-                      </div>
-                    </div>
-                    <div
-                      className="card-plan-item-content-bottom"
-                      aria-hidden="true"
-                    >
-                      <div
-                        className="card-plan-item-button-wrapper"
-                        aria-hidden="true"
-                      >
-                        <div
-                          className="button-primary-gradient full-width"
-                          aria-hidden="true"
-                        >
-                          <a
-                            href="#"
-                            className="button-primary w-button"
-                            tabIndex={-1}
-                            aria-hidden="true"
-                          >
-                            See the Full OLYX Roadmap
-                          </a>
-                        </div>
+                        <br />
+                        <p>
+                          As a staker and a DAO member, you are also entitled to receive a portion of these  dividends (corresponding to your importance in the network). The AI members can be seen as "servants" of the fund, and needless to say, it's our most exciting invention of the year. We will ensure the DAO is constantly expanding, more secure, and more stable.
+                        </p>  
                       </div>
                     </div>
                   </div>
@@ -722,7 +651,7 @@ const Testimonial = () => {
               />
             </div>
             <div
-              className="testimonials-left-arrow w-slider-arrow-left"
+              className="testimonials-left-arrow w-slider-arrow-left roadmap-slider"
               role="button"
               tabIndex={0}
               aria-controls="w-slider-mask-0"
@@ -731,7 +660,7 @@ const Testimonial = () => {
               <div></div>
             </div>
             <div
-              className="testimonials-right-arrow w-slider-arrow-right"
+              className="testimonials-right-arrow w-slider-arrow-right roadmap-slider"
               role="button"
               tabIndex={0}
               aria-controls="w-slider-mask-0"

@@ -13,6 +13,7 @@ const Faqs = () => {
   const [faq5, setFaq5] = useState(false);
   const [faq6, setFaq6] = useState(false);
   const [faq7, setFaq7] = useState(false);
+  const [faq8, setFaq8] = useState(false);
   let togglefaq1 = () => {
     if (faq1 == false) {
       setFaq1(true);
@@ -62,6 +63,13 @@ const Faqs = () => {
       setFaq7(false);
     }
   };
+  let togglefaq8 = () => {
+    if (faq8 == false) {
+      setFaq8(true);
+    } else {
+      setFaq8(false);
+    }
+  };
   return (
     <div>
       <section className="section faqs wf-section">
@@ -85,7 +93,7 @@ const Faqs = () => {
             }}
             className="faqs-title-wrapper"
           >
-            <h2 className="title faqs">Frequently Asked Question</h2>
+            <h2 className="title faqs primary-text">Frequently Asked Questions</h2>
           </div>
           <div
             data-w-id="edfce28c-d1e4-9bdd-e4a7-d78f5ce1c219"
@@ -99,9 +107,9 @@ const Faqs = () => {
           >
             <div className="card faq " onClick={togglefaq1}>
               <div className="card-faq-content-top">
-                <h3 className="title h4-size card-faq">What is Olyx?</h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <h3 className="title h4-size card-faq">What is YieldTrust.ai??</h3>
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq1 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -123,22 +131,17 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  Olyx is cryptocurrency trading platform that is built on the
-                  Binance Smart Chain. It features an AI bot named Jarvis that
-                  helps traders make informed investment decisions, and it also
-                  has a crowdfunding trade component that allows investors to
-                  contribute funds to cryptocurrency trading vaults managed by
-                  individual traders.
+                  YieldTrust offers a platform that gives you access to trailblazing investment strategies through our AI-powered YieldBot, allowing you to earn up to 2.2% BUSD per day passively. Users are entitled to claim rewards every 24 hours. <span className="primary-text">Welcome to the new era of crypto trading and wealth accumulation.</span>
                 </p>
               </div>
             </div>
             <div className="card faq" onClick={togglefaq2}>
               <div className="card-faq-content-top">
                 <h3 className="title h4-size card-faq">
-                  What is the cross-chain bridge on Olyx?
+                  Who is the team behind YieldTrust?
                 </h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq2 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -160,22 +163,17 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  The cross-chain bridge on Olyx is a system that allows users
-                  to transfer their cryptocurrency assets between the Olyx
-                  platform and other blockchain networks. This can be useful for
-                  users who want to access a wider range of cryptocurrency
-                  assets or take advantage of different features or protocols on
-                  different blockchains.
+                  The human team behind YieldTrust aren't just traders – they are a modest group of highly skilled quants – specialists in combining market data analysis, mathematics, and coding – who constantly progress the code of YieldBot and its deep learning core. We are here to bridge our expertise in artificial intelligence (AI), decentralised finance (DeFi), and high-performance crypto trading to offer you this unique opportunity. On top of that, we also brought on some experienced marketers, designers, and our CEO, who will position the project for success in a highly competitive market.
                 </p>
               </div>
             </div>
             <div className="card faq" onClick={togglefaq3}>
               <div className="card-faq-content-top">
                 <h3 className="title h4-size card-faq">
-                  How does governance work on Olyx?
+                  What is YieldBot?
                 </h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq3 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -197,25 +195,22 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  On Olyx, governance is accomplished through the use of smart
-                  contracts and a decentralized voting system. Users of the
-                  platform can propose changes to the platform's protocol or
-                  policies by creating a governance proposal and submitting it
-                  for vote. Other users can then review the proposal and cast
-                  their votes using their staked Jarvis NFTs. The more NFTs a
-                  user has staked, the more influence their vote will have. Once
-                  a proposal has received a sufficient number of votes, it will
-                  be implemented or rejected based on the outcome of the vote.
+                  YieldBot's deep learning core is programmed to analyse the crypto markets and – in milliseconds - make its own trading decisions, autonomously choosing from hundreds of trading methods and chaining them together to create unique strategies - achieving an exhilarating performance. It can realise 70 times more transactions with 25 times more profitable results than any human trader ever could, and – since it is constantly reiterating and rewriting itself, learning from its own success – it is getting better and better with every trade made. 
+                </p>
+
+                <br />
+                <p>
+                  The figures for the last four months of YieldBot speak for themselves: an average daily yield of 2.6% and no losing trading days. In fact, the max drawdown on a trade was at most 0.5%, which is probably one of the best “performance & risk management” results ever! Although the bot had a rocky start, having to adjust to the crypto markets, reaching this milestone was a sign for us to take this innovation to the public. It has been in the making for over two years!
                 </p>
               </div>
             </div>
             <div className="card faq" onClick={togglefaq4}>
               <div className="card-faq-content-top">
                 <h3 className="title h4-size card-faq">
-                  How will the crowdfunding-trade be executed?
+                  How do I start earning passive income?
                 </h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq4 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -237,23 +232,17 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  The trader creates a trading vault and sets its parameters.The
-                  trader promotes the trading vault to potential
-                  investors.Investors contribute funds to the trading vault.The
-                  trader executes the trade using the funds in the vault.The
-                  trader continues to manage the trading vault and report on its
-                  performance.
+                  Simply head over to our DApp, connect your wallet, and deposit funds into the BUSD pool (staking tab) to start earning passively. The process is summarised in our docs. The minimum deposit is 100 BUSD.
                 </p>
               </div>
             </div>
             <div className="card faq last" onClick={togglefaq5}>
               <div className="card-faq-content-top">
                 <h3 className="title h4-size card-faq">
-                  What happens when an investor makes investment in a
-                  crowdfunding vault?
+                  Do you make any guarantees?
                 </h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq5 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -275,22 +264,17 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  The investor contributes funds to the trading vault.The trader
-                  uses the funds in the vault to execute trades, with the goal
-                  of generating profits for the investors.The trader continues
-                  to manage the vault, executing additional trades as needed and
-                  reporting on its performance.
+                  Our bot has been running very successfully for over four months, averaging well above the 2.2% daily return we offer you. No matter how promising this may seem for the future, the returns are only predictable but not guaranteed. The daily ROI will remain at 2.2% unless the bot consistently underperforms, meaning the daily ROI is lower than the average for several days, which statistically doesn't happen often.
                 </p>
               </div>
             </div>
             <div className="card faq" onClick={togglefaq6}>
               <div className="card-faq-content-top">
                 <h3 className="title h4-size card-faq">
-                  What are the requirements for being a trading vault
-                  publishers?
+                  Is there a min claim amount? When can I claim rewards? 
                 </h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq6 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -312,23 +296,17 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  To become a trading vault publisher on the Olyx platform, an
-                  individual trader is required to hold a certain amount of
-                  tokens and have a maximum vault capacity that decreases as
-                  their reputation on the platform grows. This approach is
-                  intended to align the interests of the trader and the
-                  investors and encourage the trader to continue to perform
-                  well.
+                  There is no minimum claim amount. Users are entitled to claim rewards every 24 hours, allowing anyone to earn back their deposit as quickly as they want.
                 </p>
               </div>
             </div>
             <div className="card faq" onClick={togglefaq7}>
               <div className="card-faq-content-top">
                 <h3 className="title h4-size card-faq">
-                  Who is behind the Olyx project?
+                  Can I request a full refund on my deposit?
                 </h3>
-                <div className="card-faq-icon-gradient">
-                  <div className="card-faq-icon-wrapper">
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
                     <div className="card-faq-icon-1" />
                     <div className={faq7 ? "" : "card-faq-icon-2"} />
                   </div>
@@ -350,11 +328,39 @@ const Faqs = () => {
                 }}
               >
                 <p className="paragraph card-faq">
-                  The Olyx project is led experienced programmers, marketing
-                  professionals, and researchers with at least four years of
-                  experience in the cryptocurrency industry. This team brings a
-                  range of skills and expertise to the project, positioning it
-                  for success in the highly competitive cryptocurrency market.
+                  We have a 15-day lockup before you're free to withdraw (refund) your initial deposit. There's no fee in case of a refund, and your refund is processed in up to three working days. Please note that you should always claim your rewards before doing so. The lockup is in place to ensure our bot has enough time to produce sufficient returns covering the withdrawals while supporting new deposits coming in. Once your refund is completed, you can not use the same wallets to make deposits and earn rewards, and you need to use a whole new wallet.
+                </p>
+              </div>
+            </div>
+            <div className="card faq" onClick={togglefaq8}>
+              <div className="card-faq-content-top">
+                <h3 className="title h4-size card-faq">
+                  Can I get my own YieldBot?
+                </h3>
+                <div className="card-faq-icon-gradient no-img">
+                  <div className="card-faq-icon-wrapper card-faq-icon-bg">
+                    <div className="card-faq-icon-1" />
+                    <div className={faq8 ? "" : "card-faq-icon-2"} />
+                  </div>
+                </div>
+              </div>
+              <div
+                className={
+                  faq8
+                    ? "card-faq-content-bottom show-toggle"
+                    : "card-faq-content-bottom"
+                }
+                style={{
+                  height: "0px",
+                  opacity: 1,
+                  transform:
+                    "translate3d(0px, 0px, 0px) scale3d(0.9, 0.9, 1)   rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+                  transformStyle: "preserve-3d",
+                  display: "none",
+                }}
+              >
+                <p className="paragraph card-faq">
+                  We intend to patent our product and market it to the broader public after we convince the DeFi community of our invention. In this case, we will prioritise our early investors. In due course, everyone will witness YieldBot's consistent yield output and simplistic use. The bot itself will be available for individual use through NFTs. Users may play with the options and specifications of the software and develop their own strategies. Become an early investor in YieldTrust and earn your whitelist spot in the NFT collection. Spots will be limited and dependent on the size of your stake and the time you're invested in our DApp.
                 </p>
               </div>
             </div>

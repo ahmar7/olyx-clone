@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../assets/img/logo.png";
 import "./header.css";
 const Navbar = () => {
+  const [navtoggle, setNavtoggle] = useState(false);
+  let toggleNav = () => {
+    if (navtoggle == false) {
+      setNavtoggle(true);
+    } else {
+      setNavtoggle(false);
+    }
+  };
   return (
     <div>
+      <div onClick={toggleNav} className={navtoggle ? "overlay" : ""}></div>
       <div
         data-collapse="medium"
         data-animation="over-left"
@@ -32,132 +41,14 @@ const Navbar = () => {
                 />
               </a>
             </div>
-            <div className="split-content header-center">
-              <nav role="navigation" className="nav-menu w-nav-menu" style={{}}>
-                <ul role="list" className="header-navigation w-list-unstyled">
-                  <li className="nav-item-wrapper">
-                    <a
-                      href="#"
-                      aria-current="page"
-                      className="nav-link w--current"
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item-wrapper">
-                    <a href="#" className="nav-link">
-                      Roadmap
-                    </a>
-                  </li>
-                  <li className="nav-item-wrapper">
-                    <div
-                      data-hover="true"
-                      data-delay={0}
-                      data-w-id="f05a5eb5-5b4f-2c04-369b-54bf4593dba1"
-                      className="nav-link-dropdown w-dropdown"
-                      style={{ maxWidth: "1440px" }}
-                    >
-                      <div
-                        className="nav-link dropdown w-dropdown-toggle"
-                        id="w-dropdown-toggle-0"
-                        aria-controls="w-dropdown-list-0"
-                        aria-haspopup="menu"
-                        aria-expanded="false"
-                        role="button"
-                        tabIndex={0}
-                      >
-                        <div>
-                          Community&nbsp;&nbsp;
-                          <span className="dropdown-arrow"></span>
-                        </div>
-                      </div>
-                      <nav
-                        className="dropdown-list w-dropdown-list"
-                        style={{
-                          display: "none",
-                          transform:
-                            "translate3d(0px, 10px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-                          transformStyle: "preserve-3d",
-                          opacity: 0,
-                          height: "0px",
-                        }}
-                        id="w-dropdown-list-0"
-                        aria-labelledby="w-dropdown-toggle-0"
-                      >
-                        <div className="dropdown-nav-main-wrapper">
-                          <div className="dropdown-nav-pages-wrapper">
-                            <div className="title dropdown">Social Media</div>
-                            <div className="dropdown-nav-content">
-                              <ul role="list" className="dropdown-nav">
-                                <li className="dropdown-nav-item">
-                                  <a
-                                    href="#"
-                                    className="dropdown-nav-link"
-                                    tabIndex={0}
-                                  >
-                                    Twitter
-                                  </a>
-                                </li>
-                                <li className="dropdown-nav-item">
-                                  <a
-                                    href="#"
-                                    className="dropdown-nav-link tag w-inline-block"
-                                    tabIndex={0}
-                                  >
-                                    <div className="footer-nav-link-tag-text">
-                                      Telegram
-                                    </div>
-                                  </a>
-                                </li>
-                              </ul>
-                              <ul role="list" className="dropdown-nav last">
-                                <li className="dropdown-nav-item">
-                                  <a
-                                    href="#"
-                                    className="dropdown-nav-link tag w-inline-block"
-                                    tabIndex={0}
-                                  >
-                                    <div className="footer-nav-link-tag-text">
-                                      Discord
-                                    </div>
-                                    <div className="nav-link-tag-wrapper">
-                                      <div className="nav-link-tag">soon</div>
-                                      <div className="nav-link-tag-blur" />
-                                    </div>
-                                  </a>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        </div>
-                      </nav>
-                    </div>
-                  </li>
-                  <li className="nav-item-wrapper mobile">
-                    <a href="#" className="nav-link sign-in mobile">
-                      Sign in
-                    </a>
-                  </li>
-                  <li className="nav-item-wrapper mobile-button">
-                    <div className="button-primary-gradient header-button mobile-button">
-                      <a
-                        href="#"
-                        className="button-primary small-v2 mobile-button w-button"
-                      >
-                        Get started
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </nav>
-            </div>
+            
             <div className="split-content header-left">
-              <a href="#" className="nav-link sign-in">
-                Docs
+              <a href="#" className="nav-link sign-in menu-item">
+                FAQs
               </a>
-              <div className="button-primary-gradient header-button">
-                <a href="#" className="button-primary small-v2 w-button">
-                  Dashboard
+              <div>
+                <a className="dark-button">
+                    <p font-weight="700" className="dark-button-text">LAUNCH APP</p>
                 </a>
               </div>
               <div

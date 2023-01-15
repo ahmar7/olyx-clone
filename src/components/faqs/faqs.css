@@ -1,3 +1,8 @@
+.card.faq {
+    background: linear-gradient(180deg, rgba(255, 198, 0, .15), rgba(255, 198, 0, .15) .01%, rgba(50, 206, 157, .15)), #002c3a;
+    border: 1px solid rgba(50, 206, 157, .5);
+}
+
 .bg-gradient-blur-wrapper.faqs {
     animation: mymove 13s infinite;
     animation-timing-function: ease-in-out;
@@ -47,9 +52,12 @@
     min-height: 42px;
     min-width: 42px;
     border-radius: 8px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#6f86ff), color-stop(49%, #b372ce), to(#ff7586));
-    background-image: linear-gradient(90deg, #6f86ff, #b372ce 49%, #ff7586);
+    border: 1px solid rgba(50, 206, 157, .5);
     box-shadow: 0 3px 7px 0 rgba(19, 17, 26, 0.14);
+}
+
+.card-faq-icon-bg {
+    background: transparent;
 }
 
 .card-faq-icon-wrapper {
@@ -72,7 +80,6 @@
     -ms-flex-align: center;
     align-items: center;
     border-radius: 8px;
-    background-color: #302c3f;
 }
 
 .card-faq-icon-1 {

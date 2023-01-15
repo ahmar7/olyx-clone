@@ -13,18 +13,9 @@ const Footer = () => {
           >
             <div className="footer-menu-main-content">
               <div className="footer-menu-wrapper">
-                <div className="title footer-menu">OLYX</div>
+                <div className="title footer-menu">YieldTrust</div>
                 <div className="footer-menu-content">
                   <ul role="list" className="footer-nav w-list-unstyled">
-                    <li className="footer-nav-item">
-                      <a
-                        href="#"
-                        aria-current="page"
-                        className="footer-nav-link w--current"
-                      >
-                        Home
-                      </a>
-                    </li>
                     <li className="footer-nav-item">
                       <a href="#" className="footer-nav-link">
                         Docs
@@ -40,40 +31,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-newsletter-content">
-              <div className="title footer-menu">
-                Subscribe to our newsletter
-              </div>
               <p className="paragraph footer-newsletter">
-                Olyx, Automated Hedge Fund platform with Advance AI bot trading.
+                YieldTrust | Earn more, worry less
               </p>
               <div className="footer-newsletter-form-block w-form">
-                <form
-                  id="wf-form-Footer-Newsletter-Form"
-                  name="wf-form-Footer-Newsletter-Form"
-                  data-name="Footer Newsletter Form"
-                  method="get"
-                  className="footer-newsletter-form"
-                  aria-label="Footer Newsletter Form"
-                >
-                  <input
-                    type="email"
-                    className="input footer-newsletter w-input"
-                    maxLength={256}
-                    name="email"
-                    data-name="Email"
-                    placeholder="Your email address"
-                    id="email"
-                    required
-                  />
-                  <div className="button-primary-gradient footer-newsletter">
-                    <input
-                      type="submit"
-                      defaultValue="Subscribe"
-                      data-wait="Please wait..."
-                      className="button-primary footer-newsletter w-button"
-                    />
-                  </div>
-                </form>
+                
                 <div
                   className="success-message w-form-done"
                   tabIndex={-1}
@@ -92,9 +54,6 @@ const Footer = () => {
                 </div>
               </div>
               <div className="social-media-wrapper">
-                <a href="#" target="_blank" className="social-media-link">
-                  
-                </a>
                 <a
                   href="#"
                   target="_blank"
@@ -102,30 +61,7 @@ const Footer = () => {
                 >
                   
                 </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="social-media-link icon-size-15px"
-                >
-                  
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="social-media-link icon-size-13px"
-                >
-                  
-                </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  className="social-media-link icon-size-13px"
-                >
-                  
-                </a>
-                <a href="#" target="_blank" className="social-media-link">
-                  
-                </a>
+              
               </div>
             </div>
           </div>
@@ -146,7 +82,7 @@ const Footer = () => {
                 className="footer-logo"
               />
             </a>
-            <div className="footer-small-print">Copyright © Olyx.AI Team</div>
+            <div className="footer-small-print">Copyright © YieldTrust.AI</div>
           </div>
         </div>
       </footer>

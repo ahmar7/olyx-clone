@@ -15,13 +15,11 @@ const Dashboard = () => {
     <div>
       <Navbar />
       <HeroSection />
-      <Tokens />
       <Features />
       <Perks />
-      <Steps />
+      <Tokens />
       <Testimonial />
       <Faqs />
-      <Explorelast />
       <Footer />
     </div>
   );

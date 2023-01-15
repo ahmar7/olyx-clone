@@ -24,28 +24,9 @@ const HeroSection = () => {
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="false"
-        className="section home-hero wf-section"
+        className="section home-hero wf-section hero-banner"
       >
-        <div className="container-medium-940px home-hero">
-          <div
-            data-w-id="448f5ead-3667-0bad-b1a4-a6038870800b"
-            className="home-hero-featured-message-wrapper"
-          >
-            <div className="home-hero-featured-message-content">
-              <a
-                data-w-id="5747d66c-b4ac-690f-6026-662ab3648be2"
-                href="#"
-                className="home-hero-featured-message-link w-inline-block"
-              >
-                <div className="home-hero-featured-message-tag">New</div>
-                <div className="home-hero-featured-message-text">
-                  Partnership with Pinksale
-                </div>
-                <div className="home-hero-featured-message-icon"></div>
-              </a>
-              <div className="home-hero-featured-message-blur" />
-            </div>
-          </div>
+        <div className="container-medium-940px home-hero mtop-hero">
           <h1
             data-w-id="abc7287a-ad94-a3ec-8716-36750d55fc4e"
             style={{
@@ -56,9 +37,9 @@ const HeroSection = () => {
             }}
             className="display-1 home-hero"
           >
-            <strong>Unlock the Power of DeFi with </strong>
+            <strong>Join the New Era of Trading with </strong>
             <span className="text-color-accent">
-              <strong className="text-color-accent">OLYX</strong>
+              <strong className="text-color-accent">YieldBot!</strong>
             </span>
           </h1>
           <p
@@ -69,9 +50,21 @@ const HeroSection = () => {
               transformStyle: "preserve-3d",
               opacity: 1,
             }}
-            className="paragraph-large home-hero"
+            className="paragraph-large home-hero hero-caption-mb"
           >
-            Olyx, Automated Hedge Fund platform with Advance AI bot trading.
+            A cutting-edge investment platform offering modern wealth solutions through cryptocurrencies, artificial intelligence (AI) and decentralised finance (DeFi).
+          </p>
+          <p
+            data-w-id="749e645b-3b65-110f-471d-f6af6dfbc601"
+            style={{
+              transform:
+                "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
+              transformStyle: "preserve-3d",
+              opacity: 1,
+            }}
+            className="paragraph-large home-hero hero-benefits"
+          >
+            Earn more, worry less | UP TO 2.2% BUSD DAILY | SECURE & PASSIVELY
           </p>
           <div
             data-w-id="b1ff49e2-6272-bd33-f83d-82e4206a6d65"
@@ -85,15 +78,20 @@ const HeroSection = () => {
           >
             <div
               id="w-node-_11c7ff4f-b854-a2a7-75b3-008a8664fa7a-11098043"
-              className="button-primary-gradient _2-buttons"
+              className="button-primary-gradient _2-buttons no-img"
             >
-              <a href="#" className="button-primary w-button">
-                Get started
+              <a href="#" className="button-primary w-button learn-more">
+                Learn more
               </a>
             </div>
-            <a href="#" className="button-secondary _2-buttons w-button">
-              View Charts
-            </a>
+            <div
+              id="w-node-_11c7ff4f-b854-a2a7-75b3-008a8664fa7a-11098043"
+              className="button-primary-gradient _2-buttons no-img"
+            >
+              <a href="#" className="button-primary w-button get-started">
+                Watch Video
+              </a>
+            </div>
           </div>
         </div>
         <div className="container-default home-hero w-container">
@@ -142,7 +140,7 @@ const HeroSection = () => {
               data-aos-once="false"
             />
           </div>
-          <h1 className="heading-5">Our Partners</h1>
+          {/*<h1 className="heading-5">Our Partners</h1>
           <div className="home-hero-companies-wrapper">
             <div className="home-hero-companies">
               <img
@@ -183,7 +181,7 @@ const HeroSection = () => {
                 className="image home-hero-company"
               />
             </div>
-          </div>
+          </div>*/}
           <div
             data-w-id="a052a4bf-34f8-d790-1f5c-e2592094cb97"
             className="bg-gradient-blur-wrapper home-hero-1"
@@ -206,14 +204,14 @@ const HeroSection = () => {
               data-aos-easing="ease-in"
               data-aos-mirror="false"
               data-aos-once="true"
-              className="card about-hero-achievement"
+              className="card about-hero-achievement card-design"
             >
               <div className="card-about-hero-achievement-wrapper">
                 <div className="number-big card-about-hero-achievement">
-                  0K<span className="accent-primary-2">+</span>
+                  2.2%
                 </div>
                 <div className="card-about-hero-achievement-text">
-                  Traded monthly
+                  Daily Return
                 </div>
               </div>
             </div>
@@ -225,14 +223,14 @@ const HeroSection = () => {
               data-aos-easing="ease-in"
               data-aos-mirror="false"
               data-aos-once="true"
-              className="card about-hero-achievement"
+              className="card about-hero-achievement card-design"
             >
               <div className="card-about-hero-achievement-wrapper">
-                <div className="number-big card-about-hero-achievement">
-                  0K<span className="accent-secondary-1">+</span>
+                <div className="number-big card-about-hero-achievement align-center">
+                  <span className="accent-secondary-1">$</span>0
                 </div>
                 <div className="card-about-hero-achievement-text">
-                  Active users
+                  Total Assets
                 </div>
               </div>
             </div>
@@ -244,14 +242,14 @@ const HeroSection = () => {
               data-aos-easing="ease-in"
               data-aos-mirror="false"
               data-aos-once="true"
-              className="card about-hero-achievement"
+              className="card about-hero-achievement card-design"
             >
               <div className="card-about-hero-achievement-wrapper">
-                <div className="number-big card-about-hero-achievement">
-                  0K<span className="accent-secondary-2">+</span>
+                <div className="number-big card-about-hero-achievement align-center">
+                  <span className="accent-secondary-1">$</span>0
                 </div>
                 <div className="card-about-hero-achievement-text">
-                  Saved in commissions
+                  Claimed Rewards
                 </div>
               </div>
             </div>
@@ -263,14 +261,14 @@ const HeroSection = () => {
               data-aos-easing="ease-in"
               data-aos-mirror="false"
               data-aos-once="true"
-              className="card about-hero-achievement"
+              className="card about-hero-achievement card-design"
             >
               <div className="card-about-hero-achievement-wrapper">
-                <div className="number-big card-about-hero-achievement">
-                  0K<span className="accent-secondary-3">+</span>
+                <div className="number-big card-about-hero-achievement align-center">
+                  0
                 </div>
                 <div className="card-about-hero-achievement-text">
-                  Capital in funding
+                  Total Investors
                 </div>
               </div>
             </div>

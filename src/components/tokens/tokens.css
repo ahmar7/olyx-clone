@@ -1,3 +1,16 @@
+.slogan-size {
+    font-size: 22px;
+}
+
+.primary-text {
+    color: rgb(93, 248, 204);
+}
+
+.card-design {
+    background: linear-gradient(180deg, rgba(255, 198, 0, .15), rgba(255, 198, 0, .15) .01%, rgba(50, 206, 157, .15)), #002c3a !important;
+    border: 1px solid rgba(50, 206, 157, .5) !important;
+}
+
 .bg-gradient-blur-wrapper.big {
     animation: mymove 13s infinite;
     animation-timing-function: ease-in-out;
@@ -248,4 +261,19 @@
 .paragraph-small.card-plan-item-content-bottom-small-print {
     margin-top: 16px;
     text-align: center;
+}
+
+@media (max-width:991px) {
+    .home-features-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:767px) {
+    .home-features-grid {
+        width: 100%;
+        max-width: 603px;
+        grid-template-columns: 1fr;
+
+    }
 }

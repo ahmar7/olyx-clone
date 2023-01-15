@@ -1,3 +1,12 @@
+.home-pd {
+    padding: 0 !important;
+}
+
+.perk-center {
+    display: flex;
+    justify-content: center;
+}
+
 .home-steps-wrapper {
     display: -webkit-box;
     display: -webkit-flex;
@@ -130,6 +139,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    gap: 12px;
 }
 
 .title.more-jobs {

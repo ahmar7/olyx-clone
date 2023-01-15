@@ -1,5 +1,5 @@
 import React from "react";
-import "./features.css";
+// import "./features.css";
 import Template from "../../assets/img/template.jpg";
 const Features = () => {
   return (
@@ -18,22 +18,25 @@ const Features = () => {
           >
             <div
               id="w-node-f01fdbe9-47bc-c062-bb6a-5e74c9a5e3b9-11098043"
-              className="card feature-featured"
+              className="card feature-featured card-design"
             >
               <div className="card-feature-featured-content">
                 <h2 className="title card-feature-featured">
-                  Crowdfunding Trade
+                  Your financial freedom starts <span className="primary-text">today.</span>
                 </h2>
                 <p className="paragraph card-feature-featured">
-                  Users can publish their trading plans or participate in other
-                  trading plan. Olyx aims to help traders focus on what they are
-                  best at, while also generating profits for others from their
-                  idle money.
+                    Gain access to trailblazing investment strategies through our AI-powered bot. Earn up to 2.2% BUSD per day while entitled to claim rewards daily. <span className="primary-text">Welcome to the new era of trading and wealth accumulation.</span> Sit back and start earning passive income today in one click. YieldTrust aims to create awareness about AI and crypto by showcasing their enormous potential through our innovations.
                 </p>
-                <p className="paragraph card-feature-featured">
-                  There will be strict conditions to apply to be Olyx Trading
-                  Publisher.
-                </p>
+
+                <br />
+                <div
+              id="w-node-_11c7ff4f-b854-a2a7-75b3-008a8664fa7a-11098043"
+              className="button-primary-gradient _2-buttons no-img"
+            >
+              <a href="#" className="button-primary w-button learn-more">
+                Get Started
+              </a>
+            </div>
               </div>
               <div className="image-wrapper card-feature-featured">
                 <img
@@ -49,49 +52,25 @@ const Features = () => {
           <div className="w-layout-grid grid-3">
             <div
               id="w-node-e982e2c1-1eb6-cbc0-695e-52c111b8dc92-11098043"
-              className="card feature"
+              className="card feature card-design"
             >
-              <img
-                src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a699cb472ffc4777d5b589_download%201.svg"
-                loading="eager"
-                alt=""
-                className="image card-feature-icon"
-              />
               <div className="card-feature-content">
-                <h3 className="title card-feature">Create Fundraising</h3>
+                <h3 className="title card-feature">1. Enter the DApp</h3>
               </div>
             </div>
-            <div className="card feature">
-              <img
-                src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a699cb472ffc4777d5b589_download%201.svg"
-                loading="eager"
-                alt=""
-                className="image card-feature-icon"
-              />
+            <div className="card feature card-design">
               <div className="card-feature-content">
-                <h3 className="title card-feature">Waiting for Deployment</h3>
+                <h3 className="title card-feature">2. Connect Your Wallet</h3>
               </div>
             </div>
-            <div className="card feature">
-              <img
-                src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a699cb472ffc4777d5b589_download%201.svg"
-                loading="eager"
-                alt=""
-                className="image card-feature-icon"
-              />
+            <div className="card feature card-design">
               <div className="card-feature-content">
-                <h3 className="title card-feature">Building Position</h3>
+                <h3 className="title card-feature">3. Stake Your Funds</h3>
               </div>
             </div>
-            <div className="card feature">
-              <img
-                src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a699cb472ffc4777d5b589_download%201.svg"
-                loading="eager"
-                alt=""
-                className="image card-feature-icon"
-              />
+            <div className="card feature card-design">
               <div className="card-feature-content">
-                <h3 className="title card-feature">Deployed</h3>
+                <h3 className="title card-feature">4. Enjoy Rewards Daily</h3>
               </div>
             </div>
           </div>

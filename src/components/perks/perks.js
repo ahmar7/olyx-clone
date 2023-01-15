@@ -8,50 +8,21 @@ const Perks = () => {
           <div className="home-perks-wrapper">
             <div className="home-perks-content-top-wrapper">
               <div className="home-perks-content-top-content">
+                <br /> 
                 <h2 className="title home-perks text-color-accent">
-                  AI SE-Analytic
+                  Look ahead!
                 </h2>
                 <p className="paragraph home-perks">
-                  We provide reliable, robust, and secure protection services to
-                  DeFi users, allowing them to secure investment assets against
-                  various risks.
+                  Inflation is rampant in today’s economy and will quickly eat away at your savings. In times when asset prices fall rapidly and show no signs of stopping, we must look for a stable alternative to preserve our wealth and create cash flow. 
                 </p>
-                <div className="w-layout-grid home-perks-grid">
-                  <div className="home-perk-wrapper">
-                    <img
-                      src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c23a4098038_icon-1-home-perks-dark-template.svg"
-                      loading="eager"
-                      alt="1 Sec Operation - Dark X Webflow Template"
-                      className="image home-perk"
-                    />
-                    <div className="home-perk-content">
-                      <h3 className="title h4-size home-perk">
-                        <strong>Olyx Security Score</strong>
-                      </h3>
-                      <p className="paragraph home-perk">
-                        Get reliable, comprehensive insights into token function
-                        with Olyx Security Score's advanced analytics.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="home-perk-wrapper">
-                    <img
-                      src="https://uploads-ssl.webflow.com/63a5add22cb21cb50d097ff1/63a5add32cb21c5a13098036_icon-2-home-perks-dark-template.svg"
-                      loading="eager"
-                      alt="No Commissions - Dark X Webflow Template"
-                      className="image home-perk"
-                    />
-                    <div className="home-perk-content">
-                      <h3 className="title h4-size home-perk">
-                        <strong>Smart Contract Vulnerability</strong>
-                      </h3>
-                      <p className="paragraph home-perk">
-                        Protect your investments with Olyx Smart Contract
-                        Vulnerability Scanner.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+                <p className="paragraph home-perks">
+                  Many people have yet to realize, with the right strategies and automation, the true power of DeFi & AI as the ultimate way to generate stable and passive yield regardless of the economic environment. Make sure you’re a part of this revolution when it is still broadly unrecognised!
+                </p>
+
+                <p className="paragraph home-perks">
+                  The graph on the right showcases how a modest investment with YieldTrust can quickly grow with compounding to a significant amount compared to leaving the funds for this investment in a bank. 
+                </p>
+                
               </div>
               <div
                 data-w-id="24a66438-d00d-342a-e10f-1469d5035cdc"

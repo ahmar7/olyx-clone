@@ -5579,7 +5579,7 @@ figcaption {
 }
 
 .button-primary {
-    padding: 22px 56px;
+    padding: 15px 40px;
     border-radius: 1000px;
     background-color: #13111a;
     color: #fff;
@@ -6755,6 +6755,8 @@ figcaption {
     border-width: 2px;
     border-color: rgba(255, 255, 255, 0.06);
     box-shadow: 0 10px 34px 0 rgba(0, 0, 0, 0.35);
+    background: linear-gradient(180deg, rgba(255, 198, 0, .15), rgba(255, 198, 0, .15) .01%, rgba(50, 206, 157, .15)), #002c3a;
+    border: 1px solid rgba(50, 206, 157, .5);
 }
 
 .card.post-item {
@@ -8070,7 +8072,7 @@ figcaption {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-    object-fit: cover;
+    object-fit: fill;
     -o-object-position: 0% 50%;
     object-position: 0% 50%;
 }
@@ -8540,8 +8542,7 @@ figcaption {
 }
 
 .text-color-accent {
-    background-image: -webkit-gradient(linear, right top, left top, from(#0ff), to(#ff4980));
-    background-image: linear-gradient(270deg, #0ff, #ff4980);
+    background: rgb(93, 248, 204);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -9571,7 +9572,6 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 7px;
-    background-image: linear-gradient(315deg, #434bff, #ff4b81);
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
@@ -9583,6 +9583,8 @@ figcaption {
     text-decoration: none;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
+    background: linear-gradient(180deg, rgba(255, 198, 0, .15), rgba(255, 198, 0, .15) .01%, rgba(50, 206, 157, .15)), #002c3a;
+    border: 1px solid rgba(50, 206, 157, .5);
 }
 
 .social-media-link:hover {
@@ -9806,7 +9808,7 @@ figcaption {
     min-height: 70%;
     min-width: 70%;
     border-radius: 1000000px;
-    background-color: #f40061;
+    background-color: rgb(93, 248, 204);
 }
 
 .bg-gradient-blur-circle-1.purple {
@@ -9814,7 +9816,7 @@ figcaption {
 }
 
 .bg-gradient-blur-circle-1.purple-2 {
-    background-color: #6e4fe9;
+    background-color: rgb(93, 248, 204);
 }
 
 .bg-gradient-blur-circle-1.purple-2.big {
@@ -9826,7 +9828,7 @@ figcaption {
 }
 
 .bg-gradient-blur-circle-1.pink {
-    background-color: #ff4895;
+    background-color: rgb(93, 248, 204);
 }
 
 .bg-gradient-blur-circle-1.blue {
@@ -9842,7 +9844,7 @@ figcaption {
     min-height: 70%;
     min-width: 70%;
     border-radius: 1000000px;
-    background-color: #fe316f;
+    background-color: rgb(93, 248, 204);
 }
 
 .bg-gradient-blur-circle-2.blue {
@@ -9854,7 +9856,7 @@ figcaption {
 }
 
 .bg-gradient-blur-circle-2.blue-2 {
-    background-color: #2d42ff;
+    background-color: rgb(93, 248, 204);
 }
 
 .bg-gradient-blur-circle-2.blue-2.blog {
@@ -9880,7 +9882,7 @@ figcaption {
 }
 
 .bg-gradient-blur-circle-3.pink {
-    background-color: #ff4895;
+    background-color: rgb(93, 248, 204);
 }
 
 .bg-gradient-blur-circle-3.pink.big {
@@ -9987,7 +9989,7 @@ figcaption {
 }
 
 .accent-secondary-1 {
-    color: #ff4895;
+    color: #85bb65;
 }
 
 .accent-secondary-2 {
@@ -10731,7 +10733,7 @@ figcaption {
 
 .card-feature-featured-content {
     max-width: 650px;
-    padding: 124px 79px;
+    padding: 40px 79px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
@@ -11840,7 +11842,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 8px;
-    background-color: #302c3f;
+    /*background-color: #302c3f;*/
 }
 
 .card-faq-icon-1 {
@@ -12477,7 +12479,7 @@ figcaption {
 }
 
 .text-block-10 {
-    width: 382px;
+    width: 100%;
     height: 81px;
     margin-bottom: 21px;
     opacity: 0.8;
@@ -12769,7 +12771,7 @@ figcaption {
 }
 
 .text-span-2 {
-    background-image: linear-gradient(89deg, #487fff, #9cbaff 55%, #cb76ff);
+    background: rgb(93, 248, 204);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -12780,7 +12782,7 @@ figcaption {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 382px;
+    width: 100%;
     margin-left: 47px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

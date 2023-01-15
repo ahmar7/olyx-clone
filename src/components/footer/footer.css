@@ -1,3 +1,7 @@
+.footer-nav-link:hover {
+    color: rgb(93, 248, 204);
+}
+
 .footer-content {
     display: -webkit-box;
     display: -webkit-flex;
