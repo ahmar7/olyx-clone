@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/img/logo.png";
 import "./header.css";
 const Navbar = () => {
@@ -41,15 +42,17 @@ const Navbar = () => {
                 />
               </a>
             </div>
-            
+
             <div className="split-content header-left">
               <a href="#" className="nav-link sign-in menu-item">
                 FAQs
               </a>
               <div>
-                <a className="dark-button">
-                    <p font-weight="700" className="dark-button-text">LAUNCH APP</p>
-                </a>
+                <Link to="/dashboard" className="dark-button">
+                  <p font-weight="700" className="dark-button-text">
+                    LAUNCH APP
+                  </p>
+                </Link>
               </div>
               <div
                 className="menu-button w-nav-button"

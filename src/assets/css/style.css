@@ -13,6 +13,17 @@ body {
     margin: 0
 }
 
+.card.feature-featured.card-design {
+    display: flex;
+    flex-direction: row !important;
+}
+
+@media (max-width:1000px) {
+    .card.feature-featured.card-design {
+        flex-direction: column !important;
+    }
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
 }
