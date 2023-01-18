@@ -1,18 +1,19 @@
 import React from "react";
-import Explorelast from "../../components/explorelast/explorelast";
-import Faqs from "../../components/faqs/faqs";
-import Features from "../../components/features/features";
-import Footer from "../../components/footer/footer";
-import Navbar from "../../components/header/header";
-import HeroSection from "../../components/heroSection/heroSection";
-import Perks from "../../components/perks/perks";
-import Steps from "../../components/steps/steps";
-import Testimonial from "../../components/testimonial/testimonial";
-import Tokens from "../../components/tokens/tokens";
-
+import Explorelast from "../../components/homeComponents/explorelast/explorelast";
+import Faqs from "../../components/homeComponents/faqs/faqs";
+import Features from "../../components/homeComponents/features/features";
+import Footer from "../../components/homeComponents/footer/footer";
+import Navbar from "../../components/homeComponents/header/header";
+import HeroSection from "../../components/homeComponents/heroSection/heroSection";
+import Perks from "../../components/homeComponents/perks/perks";
+import Steps from "../../components/homeComponents/steps/steps";
+import Testimonial from "../../components/homeComponents/testimonial/testimonial";
+import Tokens from "../../components/homeComponents/tokens/tokens";
+import "./home.scss";
+import "./home.css";
 const Home = () => {
   return (
-    <div>
+    <div className="main-bg">
       <Navbar />
       <HeroSection />
       <Features />

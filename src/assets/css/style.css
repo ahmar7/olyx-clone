@@ -7531,7 +7531,7 @@ figcaption {
     flex-grow: 1;
 }
 
-.split-content.header-left {
+.split-content.main-header-left {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -15454,12 +15454,12 @@ figcaption {
         margin-bottom: 40px;
     }
 
-    .split-content.header-right {
+    .split-content.main-header-right {
         position: relative;
         z-index: 2;
     }
 
-    .split-content.header-left {
+    .split-content.main-header-left {
         position: relative;
         z-index: 2;
     }
@@ -19555,7 +19555,7 @@ figcaption {
         margin-right: 11px;
     }
 
-    .split-content.header-right {
+    .split-content.main-header-right {
         margin-right: 10px;
     }
 

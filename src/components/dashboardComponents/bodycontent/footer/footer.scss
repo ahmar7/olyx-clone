@@ -1,0 +1,23 @@
+ul{
+    list-style: none !important;
+    padding: 0 !important;
+}
+li{
+      list-style: none !important;
+    padding: 0 !important;
+}
+.footer{
+    padding: 0 ;
+}
+
+.py-4 {
+    padding-bottom:0 !important;
+}
+@media (max-width:768px
+) {
+    .col-11{
+    flex: 0 0 auto !important;
+    width: 100% !important; 
+}
+    
+}
